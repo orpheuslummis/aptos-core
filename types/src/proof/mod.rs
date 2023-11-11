@@ -8,6 +8,8 @@ pub mod position;
 #[cfg(any(test, feature = "fuzzing"))]
 pub mod proptest_proof;
 
+pub mod lurk_definition;
+
 #[cfg(test)]
 mod unit_tests;
 
